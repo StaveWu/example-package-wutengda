@@ -4,7 +4,7 @@
 
   <groupId>org.example</groupId>
   <artifactId>example-package-wutengda</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
 
   <name>example-package-wutengda</name>
@@ -18,6 +18,21 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <scm>
+    <connection>scm:git:git://github.com/StaveWu/example-package-wutengda.git</connection>
+    <developerConnection>scm:git:ssh://github.com:StaveWu/example-package-wutengda.git</developerConnection>
+    <url>http://github.com/StaveWu/example-package-wutengda/tree/main</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <name>Stave Wu</name>
+      <email>wtengda0816@outlook.com</email>
+      <organization>Sonatype</organization>
+      <organizationUrl>http://www.sonatype.com</organizationUrl>
+    </developer>
+  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
